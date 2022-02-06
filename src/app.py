@@ -8,6 +8,7 @@ products = [
 
 app = Flask(__name__) #Main
 
+#new test
 # curl -v http://localhost:5000/products
 @app.route('/products') #Decorator that is added to any function that handles web request.
 def get_products():
